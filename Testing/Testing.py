@@ -1,11 +1,5 @@
 
-def recurse(n):
-    if n <= 0:
-        print("Thing!")
-    else:
-        print(n)
-        recurse(n - 1)
-        print(n)
+name_list = ['bob','jim','harry','mario','luke']
 
-
-recurse(4)
+for name in name_list:
+    print(name)
